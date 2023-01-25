@@ -55,3 +55,9 @@ h6 {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1260px) {
+  .container {
+    padding: 0 15px;
+  }
+}

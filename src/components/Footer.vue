@@ -78,4 +78,18 @@ const menu = [
         }
     }
 }
+
+@media screen and (max-width: 560px) {
+    .footer {
+        &__wrapper {
+            flex-direction: column;
+        }
+
+        &__contacts {
+            flex-direction: column;
+            margin-top: 30px;
+            gap: 20px;
+        }
+    }
+}
 </style>

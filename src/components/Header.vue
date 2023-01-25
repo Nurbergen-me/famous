@@ -66,4 +66,25 @@ const menu = [
     }
 }
 
+@media screen and (max-width: 1260px)  {
+    .header{
+        &__form-input {
+            width: 250px;
+        }
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .header {
+
+        padding: 12px 0;
+        &__wrapper {
+            justify-content: center;
+        }
+        &__form {
+            display: none;
+        }
+    }
+}
+
 </style>

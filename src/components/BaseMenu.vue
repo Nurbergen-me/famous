@@ -28,4 +28,17 @@ const props = defineProps(['menu'])
         text-decoration: none;
     }
 }
+
+@media screen and (max-width: 1260px) {
+    .menu {
+        gap: 24px;
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .menu {
+        display: none;
+    }
+}
 </style>

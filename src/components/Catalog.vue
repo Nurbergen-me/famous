@@ -184,4 +184,12 @@ function addToCart(picture) {
         }
     }
 }
+
+@media screen and (max-width: 560px) {
+    .catalog {
+        &__item {
+            width: 100%;
+        }
+    }
+}
 </style>
