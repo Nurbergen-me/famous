@@ -74,6 +74,7 @@ const menu = [
                 font-size: 14px;
                 color: #555555;
                 text-decoration: none;
+                white-space: nowrap;
             }
         }
     }

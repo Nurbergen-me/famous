@@ -26,6 +26,7 @@ const props = defineProps(['menu'])
     &__item {
         color: #555555;
         text-decoration: none;
+        white-space: nowrap
     }
 }
 
@@ -36,7 +37,7 @@ const props = defineProps(['menu'])
     }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1060px) {
     .menu {
         display: none;
     }
